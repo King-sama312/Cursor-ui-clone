@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #14120b;
+  font-family: "CursorGothic";
+  color: white;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CursorGothic;
+  src: url("assets/fonts/CursorGothic-Regular.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CursorGothic;
+  src: url("assets/fonts/CursorGothic-Italic.woff2") format("woff2");
+  font-display: swap;
+  font-style: italic;
+}
+
+.nav-left, .nav-center,.nav-right{
+    margin-top: 1rem;
+}
+
+.navbar,
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left {
+  margin-left: 1rem;
+}
+
+.nav-center {
+  gap: 2rem;
+  margin-left: 5rem;
+}
+
+.navbar {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  color: #14120b;
+  height: 52px;
+}
+
+.navbar p {
+  font-size: 14px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-right: 2.25rem;
+  gap: 10px;
+  margin-top: -3px;
+}
+
+.signin-btn {
+  border: 1px solid #4d4d4d;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.download-btn {
+  border: none;
+  color: black;
+  background-color: #edecec;
+  padding: 5px 10px;
+  width: 87px;
+  height: 27px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-img {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  margin-top: 7rem;
+}
+
+.first-img h1 {
+  font-size: 26px;
+  margin-bottom: 2rem;
+}
+
+.long-download-btn {
+  border: none;
+  color: black;
+  background-color: #edecec;
+  padding: 5px 10px;
+  width: 14rem;
+  height: 44px;
+  border-radius: 25px;
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+
+.first-img img {
+  border-radius: 5px;
+}
+
+.grid-container p {
+  text-align: center;
+  margin-top: 2.25rem;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 2rem;
+}
+
+.box {
+  width: 153px;
+  height: 100px;
+  background-color: #1b1913;
+  border: 1px solid #201e19;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.box img {
+  width: 5rem;
+  background-color: #1b1913;
+}
