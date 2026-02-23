@@ -22,8 +22,10 @@
   font-style: italic;
 }
 
-.nav-left, .nav-center,.nav-right{
-    margin-top: 1rem;
+.nav-left,
+.nav-center,
+.nav-right {
+  margin-top: 1rem;
 }
 
 .navbar,
@@ -34,6 +36,7 @@
 
 .nav-left {
   margin-left: 1rem;
+  cursor: pointer;
 }
 
 .nav-center {
@@ -51,6 +54,7 @@
 
 .navbar p {
   font-size: 14px;
+  cursor: pointer;
 }
 
 .nav-right {
@@ -66,6 +70,7 @@
   border-radius: 25px;
   font-size: 14px;
   padding: 5px 10px;
+  cursor: pointer;
 }
 
 .download-btn {
@@ -77,6 +82,7 @@
   height: 27px;
   border-radius: 25px;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .hero-section {
@@ -93,6 +99,8 @@
 
 .first-img h1 {
   font-size: 26px;
+  color: #edecec;
+  font-weight: 300;
   margin-bottom: 2rem;
 }
 
@@ -106,6 +114,7 @@
   border-radius: 25px;
   font-size: 16px;
   margin-bottom: 3rem;
+  cursor: pointer;
 }
 
 .first-img img {
@@ -137,4 +146,74 @@
 .box img {
   width: 5rem;
   background-color: #1b1913;
+}
+
+.similar-boxes {
+  display: flex;
+  margin: 2rem;
+  margin-top: 7rem;
+  width: 1300px;
+  height: 715px;
+  background-color: #1b1913;
+  border: 1px solid #201e19;
+}
+
+.similar-text,
+.similar-text h2,
+.similar-text p,
+.similar-text button {
+  background-color: #1b1913;
+}
+
+.similar-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.similar-text :nth-child(1) {
+  color: #edecec;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.similar-text :nth-child(2) {
+  margin-bottom: 1rem;
+  color: #999896;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.similar-text button {
+  border: none;
+  text-align: left;
+  color: #f54e00;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.similar-img {
+  background-color: #1b1913;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.similar-img img {
+  margin-left: 5rem;
+  border-radius: 5px;
+  width: 51rem;
+  align-self: center;
+  border: 1px solid #201e19;
+}
+
+.third-img img {
+  width: 55rem;
+  margin-left: 8px;
+}
+
+.fourth-img img {
+  height: 43rem;
+  margin-right: 10px;
 }
