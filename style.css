@@ -55,6 +55,7 @@
 .navbar p {
   font-size: 14px;
   cursor: pointer;
+  color: #edecec;
 }
 
 .nav-right {
@@ -216,4 +217,74 @@
 .fourth-img img {
   height: 43rem;
   margin-right: 10px;
+}
+
+.build-software-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  color: #edecec;
+}
+
+.build-software-text h1{
+  font-weight: 200;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+
+  width: 426px;
+  height: 240px;
+  border: 1px solid #201e19;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.user-card,
+.user-pic,
+.user-card p,
+.user-name {
+  background-color: #1b1913;
+  color: #edecec;
+  font-weight: 100;
+}
+
+.user-pic-container {
+  background-color: #1b1913;
+  display: flex;
+  margin-top: auto;
+  gap: 1rem;
+}
+
+.user-pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.user-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.user-name :nth-child(2) {
+  color: #999896;
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 0.75rem;
+}
+
+.users-box {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
